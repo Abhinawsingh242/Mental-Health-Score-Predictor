@@ -41,14 +41,23 @@ Excessive social media use is increasingly linked to students' well-being. This 
 Mental-Health-Score_Predictor/
 │
 ├── main.py # Backend app / prediction API
+
 ├── Mental_Health_Model.pkl # Trained ML model
+
 ├── ML_Project.ipynb # Data analysis & model training notebook
+
 ├── ML Project.html # Exported notebook (HTML view)
+
 ├── Student Social Media And Mental Health Impact.csv # Dataset
+
 ├── index.html # Frontend page
+
 ├── style.css # Styling
+
 ├── script.js # Frontend logic
+
 ├── requirements.txt # Python dependencies
+
 └── README.md
 
 
