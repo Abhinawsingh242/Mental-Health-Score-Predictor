@@ -29,11 +29,13 @@ Excessive social media use is increasingly linked to students' well-being. This 
 
 | Category   | Tools                                  |
 |------------|----------------------------------------|
-| Language   | Python, JavaScript                     |
-| ML / Data  | Pandas, NumPy, Scikit-learn, Matplotlib|
-| Backend    | [Flask / FastAPI]                      |
+| Backend    | [FastAPI, Pydantic]                      |
 | Frontend   | HTML, CSS, JavaScript                  |
-| Notebook   | Jupyter Notebook                       |
+| Machine Learning  | scikit-learn                  |
+
+| Data Processing   | Pandas, Numpy                  |
+| Visualization  | Matplotlib  |
+| Model Persistence   | Joblib                     |
 
 ---
 
