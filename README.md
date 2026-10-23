@@ -38,6 +38,9 @@ Excessive social media use is increasingly linked to students' well-being. This 
 
 ---
 
+## 📁 Project Structure
+
+```text
 Mental-Health-Score_Predictor/
 ├── main.py
 ├── Mental_Health_Model.pkl
@@ -49,7 +52,7 @@ Mental-Health-Score_Predictor/
 ├── script.js
 ├── requirements.txt
 └── README.md
-
+```
 ---
 
 ## 📊 Dataset
