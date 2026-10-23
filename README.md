@@ -1,4 +1,4 @@
-# 🧠 Mental Health Score Predictor
+# 🧠 Mental Health Score Predictor.                                          [Live](https://mental-health-score-predictor-2fil.onrender.com)
 
 A machine learning project that predicts a student's **mental health score** based on their social media usage and lifestyle habits, with a simple web interface for real-time predictions.
 
