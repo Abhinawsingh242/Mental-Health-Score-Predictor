@@ -32,7 +32,6 @@ Excessive social media use is increasingly linked to students' well-being. This 
 | Backend    | [FastAPI, Pydantic]                      |
 | Frontend   | HTML, CSS, JavaScript                  |
 | Machine Learning  | scikit-learn                  |
-
 | Data Processing   | Pandas, Numpy                  |
 | Visualization  | Matplotlib  |
 | Model Persistence   | Joblib                     |
