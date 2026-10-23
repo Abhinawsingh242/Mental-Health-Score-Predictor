@@ -38,37 +38,31 @@ Excessive social media use is increasingly linked to students' well-being. This 
 
 ---
 
-## 📂 Project Structure
 Mental-Health-Score_Predictor/
-│
-├── main.py # Backend app / prediction API
-
-├── Mental_Health_Model.pkl # Trained ML model
-
-├── ML_Project.ipynb # Data analysis & model training notebook
-
-├── ML Project.html # Exported notebook (HTML view)
-
-├── Student Social Media And Mental Health Impact.csv # Dataset
-
-├── index.html # Frontend page
-
-├── style.css # Styling
-
-├── script.js # Frontend logic
-
-├── requirements.txt # Python dependencies
-
+├── main.py
+├── Mental_Health_Model.pkl
+├── ML_Project.ipynb
+├── ML Project.html
+├── Student Social Media And Mental Health Impact.csv
+├── index.html
+├── style.css
+├── script.js
+├── requirements.txt
 └── README.md
-
 
 ---
 
 ## 📊 Dataset
 
-- **Name:** Student Social Media And Mental Health Impact
-- **Contains:** [e.g., daily social media hours, sleep hours, platform used, age, academic level, mental health score]
-- **Target Variable:** Mental Health Score
+- **Dataset:** Student Social Media and Mental Health Impact
+- **Dataset Size:** 5,000 student records and 13 columns, as documented in the notebook
+- **Input Features:** Demographics, social media usage, study hours, sleep duration, physical activity, and stress level
+- **Target Variable:** `Mental_Health_Score`
+- **Problem Type:** Supervised Learning — Regression
+
+The model estimates a mental health score using student lifestyle and social media usage features.
+
+**Disclaimer:** The predicted score is intended for educational purposes only and must not be interpreted as a clinical assessment or medical diagnosis.
 
 ---
 
@@ -79,21 +73,26 @@ Mental-Health-Score_Predictor/
 3. Feature encoding and scaling
 4. Train-test split
 5. Model training and evaluation
-6. Save the best model using `pickle` / `joblib`
+6. Save the selected preprocessing and Random Forest pipeline using Joblib.
 7. Integrate the model with the web app
 
 ---
 
 ## 📈 Model Performance
 
-| Metric   | Score   |
-|----------|---------|
-| R² Score | [value] |
-| MAE      | [value] |
-| RMSE     | [value] |
+Three regression models were evaluated on the test set.
 
-**Final Model:** [e.g., Random Forest Regressor]
+| Model | R² Score | MAE | RMSE |
+|---|---:|---:|---:|
+| Linear Regression | 0.7398 | 0.5362 | 0.6760 |
+| Random Forest (Default) | 0.8776 | 0.3472 | 0.4637 |
+| Random Forest (Tuned) | 0.8650 | 0.3689 | 0.4869 |
 
+**Model used by the application:** Random Forest Regressor (default configuration), subject to verification against the deployed model file.
+
+The default Random Forest achieved an R² score of approximately 0.878 on the recorded test set.
+
+*These metrics reflect performance on the evaluated dataset. They do not establish clinical validity or guarantee accurate predictions for individual students.*
 ---
 
 ## 🚀 Installation & Setup
@@ -117,12 +116,15 @@ pip install -r requirements.txt
 ```
 
 **4. Run the application**
+
 ```bash
-python main.py
+uvicorn main:app --reload
 ```
 
-**5. Open in browser**
+**5. Open the application**
 
+- Local application: http://127.0.0.1:8000/
+- Interactive API documentation: http://127.0.0.1:8000/docs
 
 ---
 
