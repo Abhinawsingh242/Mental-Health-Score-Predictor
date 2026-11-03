@@ -4,6 +4,7 @@
 
 A machine learning project that predicts a student's **mental health score** based on their social media usage and lifestyle habits, with a simple web interface for real-time predictions.
 
+
 ### Screenshots
 
 <img width="2940" height="1456" alt="AF8E1B10-E139-4499-8990-66D61369593F_1_201_a" src="https://github.com/user-attachments/assets/516ad48e-235f-46fc-919d-53a8800159f1" />
