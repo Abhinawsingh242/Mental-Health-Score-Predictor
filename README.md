@@ -9,6 +9,7 @@ A machine learning project that predicts a student's **mental health score** bas
 <img width="2940" height="1456" alt="AF8E1B10-E139-4499-8990-66D61369593F_1_201_a" src="https://github.com/user-attachments/assets/516ad48e-235f-46fc-919d-53a8800159f1" />
 <img width="2940" height="1478" alt="2DA613DC-5965-4B19-91C2-5BCAF52AC553_1_201_a" src="https://github.com/user-attachments/assets/1937a145-6238-4fd6-b574-13994f079ad8" />
 
+
 ---
 
 ## 📌 Overview
